@@ -1,4 +1,7 @@
 {
+  "homepage": "https://kimberlythomas.github.io/timetabled/",
+
+
   "name": "timetabled",
   "private": true,
   "version": "0.0.0",
@@ -6,7 +9,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -19,3 +24,4 @@
     "vite": "^4.1.0"
   }
 }
+
